@@ -1,0 +1,106 @@
+1476461829a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:2473:"==
+<!DOCTYPE html>
+<html lang="en">
+    <head>    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        
+        {% placeholder styles default %}
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+            <link rel="stylesheet" href="{{ 'assets/css/bootstrap.min.css'|theme }}">
+            <link rel="stylesheet" href="{{ 'assets/css/font-awesome.min.css'|theme }}">            
+            <link rel="stylesheet" href="{{ 'assets/css/style.css'|theme }}">            
+        {% endplaceholder %}
+    </head>
+    <body>       
+        <header>
+           <div class="container">
+                <div class="row top">
+                    <div class="col-lg-2">
+                        <a href="#" id="logo">
+                            <img src="{{ 'assets/images/logo.png'|theme }}" alt="Tork">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 offset-lg-4">
+                        <nav class="pull-right">
+                            <form>
+                                <div id="search">
+                                    <input type="text" placeholder="Search website">
+                                    <button type="submit">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </form>  
+                        </nav>
+                    </div>                    
+                </div>
+                <dov class="row">
+                    <div class="col-lg-8 offset-lg-3">
+                        <div class="lettering">
+                            <h1>Building bulletproof fucking apps</h1>
+                            <p>Kickstarter umami Intelligentsia kogi. Try-hard flannel literally, chambray blog crucifix put a bird on it four dollar toast cardigan</p>
+                        </div>                        
+                    </div>
+                </dov>
+           </div>            
+        </header>
+    
+        {% page %}
+        {% placeholder script default %}
+            <script src="{{ ['assets/js/jquery.min.js','assets/js/bootstrap.min.js']|theme }}"></script>
+        {% endplaceholder %}    
+    </body>
+</html>";s:5:"mtime";i:1476442131;s:6:"markup";s:2469:"<!DOCTYPE html>
+<html lang="en">
+    <head>    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        
+        {% placeholder styles default %}
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+            <link rel="stylesheet" href="{{ 'assets/css/bootstrap.min.css'|theme }}">
+            <link rel="stylesheet" href="{{ 'assets/css/font-awesome.min.css'|theme }}">            
+            <link rel="stylesheet" href="{{ 'assets/css/style.css'|theme }}">            
+        {% endplaceholder %}
+    </head>
+    <body>       
+        <header>
+           <div class="container">
+                <div class="row top">
+                    <div class="col-lg-2">
+                        <a href="#" id="logo">
+                            <img src="{{ 'assets/images/logo.png'|theme }}" alt="Tork">
+                        </a>
+                    </div>
+                    <div class="col-lg-6 offset-lg-4">
+                        <nav class="pull-right">
+                            <form>
+                                <div id="search">
+                                    <input type="text" placeholder="Search website">
+                                    <button type="submit">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </form>  
+                        </nav>
+                    </div>                    
+                </div>
+                <dov class="row">
+                    <div class="col-lg-8 offset-lg-3">
+                        <div class="lettering">
+                            <h1>Building bulletproof fucking apps</h1>
+                            <p>Kickstarter umami Intelligentsia kogi. Try-hard flannel literally, chambray blog crucifix put a bird on it four dollar toast cardigan</p>
+                        </div>                        
+                    </div>
+                </dov>
+           </div>            
+        </header>
+    
+        {% page %}
+        {% placeholder script default %}
+            <script src="{{ ['assets/js/jquery.min.js','assets/js/bootstrap.min.js']|theme }}"></script>
+        {% endplaceholder %}    
+    </body>
+</html>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

@@ -1,0 +1,6 @@
+plugin:
+    name: 'Catalog'
+    description: 'Módulo para gerenciamento de catálogo de produtos'
+    author: 'Agência Milagro'
+    icon: oc-icon-book
+    homepage: ''

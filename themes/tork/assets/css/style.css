@@ -1,0 +1,93 @@
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Open Sans';
+    color:#ffffff;
+}
+
+.btn {
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 14px;    
+}
+
+.btn-primary {
+    background-color: #3dd2ae;
+    border: 0;
+}
+
+.btn-primary:hover, .btn-primary:active:focus, .btn-primary:focus {
+    background-color: #0fa27f;    
+}
+
+header {
+    background-image: url('../images/header.jpg');
+    height: 891px;
+}
+
+header #logo {
+    margin-top: 50px;    
+    display: inline-block;
+}
+
+nav {
+    margin-right: 70px;
+    margin-top: 60px;
+}
+
+nav #search {
+    background-color: #343c48;
+    border-radius: 20px;
+    width: 262px;
+    padding: 10px 0;
+}
+
+nav #search input, nav #search button {
+    border: 0;
+    background-color: transparent;
+    color: #9da5b0;    
+    font-size: 14px;
+    outline: 0;
+}
+
+nav #search input {
+    width: 156px;
+    margin-left: 30px;
+    width: 180px;
+}
+
+header .lettering {    
+    margin: 250px auto 0 auto;    
+}
+
+header .lettering h1 {    
+    font-size: 70px;
+}
+
+header .lettering p {
+    margin-top: 32px;
+    font-size: 18px;
+}
+
+#features-header {
+    padding: 100px 0;
+    background-color: #835fa8;
+}
+
+#features-header p {
+    margin-top: 26px;
+}
+
+#features-header a {
+    margin-top: 36px;
+}
+
+#features-header img {
+    position: absolute;
+    top: 50px;
+}
+
+#features-detail {
+    z-index: 1;
+    background-color: #f4f8fb;
+    padding: 100px 0;
+}

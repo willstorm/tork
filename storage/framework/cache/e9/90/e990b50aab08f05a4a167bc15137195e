@@ -1,0 +1,56 @@
+1476401456a:1:{s:11:"product.htm";a:9:{s:8:"fileName";s:11:"product.htm";s:7:"content";s:595:"title = "Detalhes do Produto"
+url = "/produto/:slug"
+layout = "default"
+is_hidden = 0
+==
+<?php
+use Milagro\Catalog\Models\Product;
+
+function onStart()
+{
+    $this['product'] = Product::where('slug', $this->param('slug'))
+        ->with('category')
+        ->first();
+}
+?>
+==
+{% put head %}
+    <title>Test2</title>
+    {% default %}
+{% endput %}
+
+{{ product.category.name }}
+
+<div>
+    <h1>{{ product.name }}</h1>
+</div>
+<div>
+    {{ product.short_description }}
+</div>
+
+{% for image in product.images %}
+    <img src="{{ image.thumb(500,auto) }}" />
+{% endfor %}";s:5:"mtime";i:1474130334;s:6:"markup";s:304:"{% put head %}
+    <title>Test2</title>
+    {% default %}
+{% endput %}
+
+{{ product.category.name }}
+
+<div>
+    <h1>{{ product.name }}</h1>
+</div>
+<div>
+    {{ product.short_description }}
+</div>
+
+{% for image in product.images %}
+    <img src="{{ image.thumb(500,auto) }}" />
+{% endfor %}";s:4:"code";s:180:"use Milagro\Catalog\Models\Product;
+
+function onStart()
+{
+    $this['product'] = Product::where('slug', $this->param('slug'))
+        ->with('category')
+        ->first();
+}";s:5:"title";s:19:"Detalhes do Produto";s:3:"url";s:14:"/produto/:slug";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

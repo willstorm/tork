@@ -1,0 +1,11 @@
+fields:
+    name:
+        label: Nome
+        oc.commentPosition: ''
+        span: full
+        type: text
+    is_enabled:
+        label: Ativo
+        span: full
+        default: 1
+        type: switch

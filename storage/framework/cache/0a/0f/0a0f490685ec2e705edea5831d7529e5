@@ -1,0 +1,21 @@
+1476401456a:1:{s:14:"categories.htm";a:9:{s:8:"fileName";s:14:"categories.htm";s:7:"content";s:274:"title = "Listagem de Categorias"
+url = "/categorias"
+is_hidden = 0
+
+[categories]
+==
+<?php
+use Milagro\Catalog\Models\Category;
+
+function onStart()
+{
+    $this['categories'] = Category::orderBy('created_at', 'desc')->get();
+}
+?>
+==
+{% component 'categories' %}";s:5:"mtime";i:1474130324;s:6:"markup";s:28:"{% component 'categories' %}";s:4:"code";s:139:"use Milagro\Catalog\Models\Category;
+
+function onStart()
+{
+    $this['categories'] = Category::orderBy('created_at', 'desc')->get();
+}";s:5:"title";s:22:"Listagem de Categorias";s:3:"url";s:11:"/categorias";s:9:"is_hidden";s:1:"0";s:10:"categories";a:0:{}}}
