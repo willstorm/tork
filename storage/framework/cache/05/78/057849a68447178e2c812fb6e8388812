@@ -1,4 +1,4 @@
-1476461829a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:2473:"==
+1476570965a:1:{s:11:"default.htm";a:6:{s:8:"fileName";s:11:"default.htm";s:7:"content";s:5402:"==
 <!DOCTYPE html>
 <html lang="en">
     <head>    
@@ -16,13 +16,13 @@
     <body>       
         <header>
            <div class="container">
-                <div class="row top">
-                    <div class="col-lg-2">
+                <div class="row">
+                    <div class="col-md-2">
                         <a href="#" id="logo">
                             <img src="{{ 'assets/images/logo.png'|theme }}" alt="Tork">
                         </a>
                     </div>
-                    <div class="col-lg-6 offset-lg-4">
+                    <div class="col-md-6 offset-md-4">
                         <nav class="pull-right">
                             <form>
                                 <div id="search">
@@ -36,7 +36,7 @@
                     </div>                    
                 </div>
                 <dov class="row">
-                    <div class="col-lg-8 offset-lg-3">
+                    <div class="col-md-8 offset-md-3">
                         <div class="lettering">
                             <h1>Building bulletproof fucking apps</h1>
                             <p>Kickstarter umami Intelligentsia kogi. Try-hard flannel literally, chambray blog crucifix put a bird on it four dollar toast cardigan</p>
@@ -47,11 +47,64 @@
         </header>
     
         {% page %}
+        
+        <footer>
+            <div class="container">
+                <div class="row" id="contact">
+                    <div class="col-md-6">
+                        <h4>Get in touch</h4>
+                        <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Stay in touch</h4>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="john@mail.com">
+                                <p class="small">We don’t send spam. Actually, who are we kiding, we’ll spam the shit out of you’r inbox</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row" id="sitemap">
+                    <div class="col-md-2">
+                        <h5>Resources</h5>
+                        <ul class="list-unstyled">                            
+                            <li><a href="#">Tour</a></li>
+                            <li><a href="#">Customers</a></li>
+                            <li><a href="#">Pricing and Plans</a></li>
+                            <li><a href="#">New Features</a></li>
+                            <li><a href="#">Education</a></li>                            
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>Features</h5>
+                        <ul class="list-unstyled">                            
+                            <li><a href="#">Tour</a></li>
+                            <li><a href="#">Customers</a></li>
+                            <li><a href="#">Pricing and Plans</a></li>
+                            <li><a href="#">New Features</a></li>
+                            <li><a href="#">Education</a></li>                            
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>How To’s</h5>
+                        <ul class="list-unstyled">                            
+                            <li><a href="#">Tour</a></li>
+                            <li><a href="#">Customers</a></li>
+                            <li><a href="#">Pricing and Plans</a></li>
+                            <li><a href="#">New Features</a></li>
+                            <li><a href="#">Education</a></li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>     
+        </footer>
+        
         {% placeholder script default %}
             <script src="{{ ['assets/js/jquery.min.js','assets/js/bootstrap.min.js']|theme }}"></script>
         {% endplaceholder %}    
     </body>
-</html>";s:5:"mtime";i:1476442131;s:6:"markup";s:2469:"<!DOCTYPE html>
+</html>";s:5:"mtime";i:1476570364;s:6:"markup";s:5398:"<!DOCTYPE html>
 <html lang="en">
     <head>    
         <meta charset="utf-8">
@@ -68,13 +121,13 @@
     <body>       
         <header>
            <div class="container">
-                <div class="row top">
-                    <div class="col-lg-2">
+                <div class="row">
+                    <div class="col-md-2">
                         <a href="#" id="logo">
                             <img src="{{ 'assets/images/logo.png'|theme }}" alt="Tork">
                         </a>
                     </div>
-                    <div class="col-lg-6 offset-lg-4">
+                    <div class="col-md-6 offset-md-4">
                         <nav class="pull-right">
                             <form>
                                 <div id="search">
@@ -88,7 +141,7 @@
                     </div>                    
                 </div>
                 <dov class="row">
-                    <div class="col-lg-8 offset-lg-3">
+                    <div class="col-md-8 offset-md-3">
                         <div class="lettering">
                             <h1>Building bulletproof fucking apps</h1>
                             <p>Kickstarter umami Intelligentsia kogi. Try-hard flannel literally, chambray blog crucifix put a bird on it four dollar toast cardigan</p>
@@ -99,6 +152,59 @@
         </header>
     
         {% page %}
+        
+        <footer>
+            <div class="container">
+                <div class="row" id="contact">
+                    <div class="col-md-6">
+                        <h4>Get in touch</h4>
+                        <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Stay in touch</h4>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="john@mail.com">
+                                <p class="small">We don’t send spam. Actually, who are we kiding, we’ll spam the shit out of you’r inbox</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row" id="sitemap">
+                    <div class="col-md-2">
+                        <h5>Resources</h5>
+                        <ul class="list-unstyled">                            
+                            <li><a href="#">Tour</a></li>
+                            <li><a href="#">Customers</a></li>
+                            <li><a href="#">Pricing and Plans</a></li>
+                            <li><a href="#">New Features</a></li>
+                            <li><a href="#">Education</a></li>                            
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>Features</h5>
+                        <ul class="list-unstyled">                            
+                            <li><a href="#">Tour</a></li>
+                            <li><a href="#">Customers</a></li>
+                            <li><a href="#">Pricing and Plans</a></li>
+                            <li><a href="#">New Features</a></li>
+                            <li><a href="#">Education</a></li>                            
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h5>How To’s</h5>
+                        <ul class="list-unstyled">                            
+                            <li><a href="#">Tour</a></li>
+                            <li><a href="#">Customers</a></li>
+                            <li><a href="#">Pricing and Plans</a></li>
+                            <li><a href="#">New Features</a></li>
+                            <li><a href="#">Education</a></li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>     
+        </footer>
+        
         {% placeholder script default %}
             <script src="{{ ['assets/js/jquery.min.js','assets/js/bootstrap.min.js']|theme }}"></script>
         {% endplaceholder %}    

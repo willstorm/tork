@@ -47,8 +47,8 @@ class __TwigTemplate_5b955bdcac9dcd6ce4f7f993c568bffe7d279d0bd70219f614414f345c8
     <body>       
         <header>
            <div class=\"container\">
-                <div class=\"row top\">
-                    <div class=\"col-lg-2\">
+                <div class=\"row\">
+                    <div class=\"col-md-2\">
                         <a href=\"#\" id=\"logo\">
                             <img src=\"";
         // line 21
@@ -56,7 +56,7 @@ class __TwigTemplate_5b955bdcac9dcd6ce4f7f993c568bffe7d279d0bd70219f614414f345c8
         echo "\" alt=\"Tork\">
                         </a>
                     </div>
-                    <div class=\"col-lg-6 offset-lg-4\">
+                    <div class=\"col-md-6 offset-md-4\">
                         <nav class=\"pull-right\">
                             <form>
                                 <div id=\"search\">
@@ -70,7 +70,7 @@ class __TwigTemplate_5b955bdcac9dcd6ce4f7f993c568bffe7d279d0bd70219f614414f345c8
                     </div>                    
                 </div>
                 <dov class=\"row\">
-                    <div class=\"col-lg-8 offset-lg-3\">
+                    <div class=\"col-md-8 offset-md-3\">
                         <div class=\"lettering\">
                             <h1>Building bulletproof fucking apps</h1>
                             <p>Kickstarter umami Intelligentsia kogi. Try-hard flannel literally, chambray blog crucifix put a bird on it four dollar toast cardigan</p>
@@ -84,15 +84,69 @@ class __TwigTemplate_5b955bdcac9dcd6ce4f7f993c568bffe7d279d0bd70219f614414f345c8
         // line 48
         echo $this->env->getExtension('CMS')->pageFunction();
         // line 49
-        echo "        ";
-        $context['__placeholder_script_default_contents'] = null;        ob_start();        // line 50
+        echo "        
+        <footer>
+            <div class=\"container\">
+                <div class=\"row\" id=\"contact\">
+                    <div class=\"col-md-6\">
+                        <h4>Get in touch</h4>
+                        <p class=\"small\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    
+                    </div>
+                    <div class=\"col-md-6\">
+                        <h4>Stay in touch</h4>
+                        <form>
+                            <div class=\"form-group\">
+                                <input type=\"text\" class=\"form-control\" placeholder=\"john@mail.com\">
+                                <p class=\"small\">We don’t send spam. Actually, who are we kiding, we’ll spam the shit out of you’r inbox</p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class=\"row\" id=\"sitemap\">
+                    <div class=\"col-md-2\">
+                        <h5>Resources</h5>
+                        <ul class=\"list-unstyled\">                            
+                            <li><a href=\"#\">Tour</a></li>
+                            <li><a href=\"#\">Customers</a></li>
+                            <li><a href=\"#\">Pricing and Plans</a></li>
+                            <li><a href=\"#\">New Features</a></li>
+                            <li><a href=\"#\">Education</a></li>                            
+                        </ul>
+                    </div>
+                    <div class=\"col-md-2\">
+                        <h5>Features</h5>
+                        <ul class=\"list-unstyled\">                            
+                            <li><a href=\"#\">Tour</a></li>
+                            <li><a href=\"#\">Customers</a></li>
+                            <li><a href=\"#\">Pricing and Plans</a></li>
+                            <li><a href=\"#\">New Features</a></li>
+                            <li><a href=\"#\">Education</a></li>                            
+                        </ul>
+                    </div>
+                    <div class=\"col-md-2\">
+                        <h5>How To’s</h5>
+                        <ul class=\"list-unstyled\">                            
+                            <li><a href=\"#\">Tour</a></li>
+                            <li><a href=\"#\">Customers</a></li>
+                            <li><a href=\"#\">Pricing and Plans</a></li>
+                            <li><a href=\"#\">New Features</a></li>
+                            <li><a href=\"#\">Education</a></li>                            
+                        </ul>
+                    </div>
+                </div>
+            </div>     
+        </footer>
+        
+        ";
+        // line 102
+        $context['__placeholder_script_default_contents'] = null;        ob_start();        // line 103
         echo "            <script src=\"";
         echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/js/jquery.min.js", 1 => "assets/js/bootstrap.min.js"));
         echo "\"></script>
         ";
-        $context['__placeholder_script_default_contents'] = ob_get_clean();        // line 49
+        $context['__placeholder_script_default_contents'] = ob_get_clean();        // line 102
         echo $this->env->getExtension('CMS')->displayBlock('script', $context['__placeholder_script_default_contents']);
-        unset($context['__placeholder_script_default_contents']);        // line 51
+        unset($context['__placeholder_script_default_contents']);        // line 104
         echo "    
     </body>
 </html>";
@@ -110,7 +164,7 @@ class __TwigTemplate_5b955bdcac9dcd6ce4f7f993c568bffe7d279d0bd70219f614414f345c8
 
     public function getDebugInfo()
     {
-        return array (  96 => 51,  94 => 49,  89 => 50,  87 => 49,  85 => 48,  55 => 21,  46 => 14,  44 => 8,  40 => 12,  36 => 11,  32 => 10,  29 => 9,  28 => 8,  19 => 1,);
+        return array (  150 => 104,  148 => 102,  143 => 103,  142 => 102,  87 => 49,  85 => 48,  55 => 21,  46 => 14,  44 => 8,  40 => 12,  36 => 11,  32 => 10,  29 => 9,  28 => 8,  19 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -130,13 +184,13 @@ class __TwigTemplate_5b955bdcac9dcd6ce4f7f993c568bffe7d279d0bd70219f614414f345c8
 /*     <body>       */
 /*         <header>*/
 /*            <div class="container">*/
-/*                 <div class="row top">*/
-/*                     <div class="col-lg-2">*/
+/*                 <div class="row">*/
+/*                     <div class="col-md-2">*/
 /*                         <a href="#" id="logo">*/
 /*                             <img src="{{ 'assets/images/logo.png'|theme }}" alt="Tork">*/
 /*                         </a>*/
 /*                     </div>*/
-/*                     <div class="col-lg-6 offset-lg-4">*/
+/*                     <div class="col-md-6 offset-md-4">*/
 /*                         <nav class="pull-right">*/
 /*                             <form>*/
 /*                                 <div id="search">*/
@@ -150,7 +204,7 @@ class __TwigTemplate_5b955bdcac9dcd6ce4f7f993c568bffe7d279d0bd70219f614414f345c8
 /*                     </div>                    */
 /*                 </div>*/
 /*                 <dov class="row">*/
-/*                     <div class="col-lg-8 offset-lg-3">*/
+/*                     <div class="col-md-8 offset-md-3">*/
 /*                         <div class="lettering">*/
 /*                             <h1>Building bulletproof fucking apps</h1>*/
 /*                             <p>Kickstarter umami Intelligentsia kogi. Try-hard flannel literally, chambray blog crucifix put a bird on it four dollar toast cardigan</p>*/
@@ -161,6 +215,59 @@ class __TwigTemplate_5b955bdcac9dcd6ce4f7f993c568bffe7d279d0bd70219f614414f345c8
 /*         </header>*/
 /*     */
 /*         {% page %}*/
+/*         */
+/*         <footer>*/
+/*             <div class="container">*/
+/*                 <div class="row" id="contact">*/
+/*                     <div class="col-md-6">*/
+/*                         <h4>Get in touch</h4>*/
+/*                         <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    */
+/*                     </div>*/
+/*                     <div class="col-md-6">*/
+/*                         <h4>Stay in touch</h4>*/
+/*                         <form>*/
+/*                             <div class="form-group">*/
+/*                                 <input type="text" class="form-control" placeholder="john@mail.com">*/
+/*                                 <p class="small">We don’t send spam. Actually, who are we kiding, we’ll spam the shit out of you’r inbox</p>*/
+/*                             </div>*/
+/*                         </form>*/
+/*                     </div>*/
+/*                 </div>*/
+/*                 <div class="row" id="sitemap">*/
+/*                     <div class="col-md-2">*/
+/*                         <h5>Resources</h5>*/
+/*                         <ul class="list-unstyled">                            */
+/*                             <li><a href="#">Tour</a></li>*/
+/*                             <li><a href="#">Customers</a></li>*/
+/*                             <li><a href="#">Pricing and Plans</a></li>*/
+/*                             <li><a href="#">New Features</a></li>*/
+/*                             <li><a href="#">Education</a></li>                            */
+/*                         </ul>*/
+/*                     </div>*/
+/*                     <div class="col-md-2">*/
+/*                         <h5>Features</h5>*/
+/*                         <ul class="list-unstyled">                            */
+/*                             <li><a href="#">Tour</a></li>*/
+/*                             <li><a href="#">Customers</a></li>*/
+/*                             <li><a href="#">Pricing and Plans</a></li>*/
+/*                             <li><a href="#">New Features</a></li>*/
+/*                             <li><a href="#">Education</a></li>                            */
+/*                         </ul>*/
+/*                     </div>*/
+/*                     <div class="col-md-2">*/
+/*                         <h5>How To’s</h5>*/
+/*                         <ul class="list-unstyled">                            */
+/*                             <li><a href="#">Tour</a></li>*/
+/*                             <li><a href="#">Customers</a></li>*/
+/*                             <li><a href="#">Pricing and Plans</a></li>*/
+/*                             <li><a href="#">New Features</a></li>*/
+/*                             <li><a href="#">Education</a></li>                            */
+/*                         </ul>*/
+/*                     </div>*/
+/*                 </div>*/
+/*             </div>     */
+/*         </footer>*/
+/*         */
 /*         {% placeholder script default %}*/
 /*             <script src="{{ ['assets/js/jquery.min.js','assets/js/bootstrap.min.js']|theme }}"></script>*/
 /*         {% endplaceholder %}    */

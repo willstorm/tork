@@ -29,8 +29,15 @@ header #logo {
     display: inline-block;
 }
 
+section, footer {
+    padding: 100px 0;
+}
+
+section p, footer p {
+    margin-top: 35px;
+}
+
 nav {
-    margin-right: 70px;
     margin-top: 60px;
 }
 
@@ -68,26 +75,86 @@ header .lettering p {
     font-size: 18px;
 }
 
-#features-header {
-    padding: 100px 0;
+#features-header {    
     background-color: #835fa8;
 }
 
-#features-header p {
-    margin-top: 26px;
-}
-
-#features-header a {
-    margin-top: 36px;
-}
-
-#features-header img {
+#features-header img#interface-01 {
     position: absolute;
     top: 50px;
 }
 
-#features-detail {
-    z-index: 1;
-    background-color: #f4f8fb;
-    padding: 100px 0;
+#features-header img#interface-02 {
+    position: absolute;
+    right: 0;
+    top: -200px;
+}
+
+#features-detail {    
+    background-color: #f4f8fb;    
+    position: relative;
+}
+
+#features-detail h3 {
+    color:#2b303b;
+}
+
+#features-detail p {    
+    color: #2b303b;;
+}
+
+#design-header {
+    background-color: #232831;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+#design-header p {
+    color: #9da5b0;
+}
+
+#design-header img {
+    margin-top: 50px;
+    -webkit-box-shadow: 0px 0px 120px 0px rgba(0,0,0,0.50);
+    -moz-box-shadow: 0px 0px 120px 0px rgba(0,0,0,0.50);
+    box-shadow: 0px 0px 120px 0px rgba(0,0,0,0.50);
+}
+
+#design-features {
+    background-color: #2b303b;
+    position: relative;
+}
+
+#design-features h3 {
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+#design-features h3 span {
+    color:#3a4d60;
+}
+
+#design-features p {
+    color: #9da5b0;
+    font-size: 14px;
+}
+
+footer {    
+    background-color: #835fa8;
+}
+
+footer #sitemap {
+    margin-top: 35px;
+}
+
+footer #sitemap a {
+    color:white;
+}
+
+footer #sitemap ul {
+    margin-top: 20px;
+}
+
+footer form p {
+    margin-top: 10px;
 }
