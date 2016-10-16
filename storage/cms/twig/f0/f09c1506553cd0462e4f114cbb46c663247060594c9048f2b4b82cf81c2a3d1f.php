@@ -48,7 +48,7 @@ class __TwigTemplate_5b955bdcac9dcd6ce4f7f993c568bffe7d279d0bd70219f614414f345c8
         <header>
            <div class=\"container\">
                 <div class=\"row\">
-                    <div class=\"col-md-2\">
+                    <div class=\"col-xs-1\">
                         <a href=\"#\" id=\"logo\">
                             <img src=\"";
         // line 21
@@ -56,7 +56,7 @@ class __TwigTemplate_5b955bdcac9dcd6ce4f7f993c568bffe7d279d0bd70219f614414f345c8
         echo "\" alt=\"Tork\">
                         </a>
                     </div>
-                    <div class=\"col-md-6 offset-md-4\">
+                    <div class=\"col-xs-11\">
                         <nav class=\"pull-right\">
                             <form>
                                 <div id=\"search\">
@@ -70,14 +70,14 @@ class __TwigTemplate_5b955bdcac9dcd6ce4f7f993c568bffe7d279d0bd70219f614414f345c8
                     </div>                    
                 </div>
                 <dov class=\"row\">
-                    <div class=\"col-md-8 offset-md-3\">
+                    <div class=\"col-md-8 offset-md-3 col-xs-12\">
                         <div class=\"lettering\">
                             <h1>Building bulletproof fucking apps</h1>
                             <p>Kickstarter umami Intelligentsia kogi. Try-hard flannel literally, chambray blog crucifix put a bird on it four dollar toast cardigan</p>
                         </div>                        
                     </div>
                 </dov>
-           </div>            
+           </div>
         </header>
     
         ";
@@ -88,22 +88,25 @@ class __TwigTemplate_5b955bdcac9dcd6ce4f7f993c568bffe7d279d0bd70219f614414f345c8
         <footer>
             <div class=\"container\">
                 <div class=\"row\" id=\"contact\">
-                    <div class=\"col-md-6\">
+                    <div class=\"col-md-6 col-xs-12\">
                         <h4>Get in touch</h4>
                         <p class=\"small\">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    
                     </div>
-                    <div class=\"col-md-6\">
+                    <div class=\"col-md-6 col-xs-12\">
                         <h4>Stay in touch</h4>
                         <form>
-                            <div class=\"form-group\">
+                            <div class=\"input-group\">                                
                                 <input type=\"text\" class=\"form-control\" placeholder=\"john@mail.com\">
-                                <p class=\"small\">We don’t send spam. Actually, who are we kiding, we’ll spam the shit out of you’r inbox</p>
+                                <span class=\"input-group-btn\">
+                                    <button class=\"btn btn-primary\" type=\"submit\">Register</button>
+                                </span>
                             </div>
+                            <p class=\"small\">We don’t send spam. Actually, who are we kiding, we’ll spam the shit out of you’r inbox</p>
                         </form>
                     </div>
                 </div>
                 <div class=\"row\" id=\"sitemap\">
-                    <div class=\"col-md-2\">
+                    <div class=\"col-md-2 col-xs-4\">
                         <h5>Resources</h5>
                         <ul class=\"list-unstyled\">                            
                             <li><a href=\"#\">Tour</a></li>
@@ -113,7 +116,7 @@ class __TwigTemplate_5b955bdcac9dcd6ce4f7f993c568bffe7d279d0bd70219f614414f345c8
                             <li><a href=\"#\">Education</a></li>                            
                         </ul>
                     </div>
-                    <div class=\"col-md-2\">
+                    <div class=\"col-md-2 col-xs-4\">
                         <h5>Features</h5>
                         <ul class=\"list-unstyled\">                            
                             <li><a href=\"#\">Tour</a></li>
@@ -123,7 +126,7 @@ class __TwigTemplate_5b955bdcac9dcd6ce4f7f993c568bffe7d279d0bd70219f614414f345c8
                             <li><a href=\"#\">Education</a></li>                            
                         </ul>
                     </div>
-                    <div class=\"col-md-2\">
+                    <div class=\"col-md-2 col-xs-4\">
                         <h5>How To’s</h5>
                         <ul class=\"list-unstyled\">                            
                             <li><a href=\"#\">Tour</a></li>
@@ -138,15 +141,15 @@ class __TwigTemplate_5b955bdcac9dcd6ce4f7f993c568bffe7d279d0bd70219f614414f345c8
         </footer>
         
         ";
-        // line 102
-        $context['__placeholder_script_default_contents'] = null;        ob_start();        // line 103
+        // line 105
+        $context['__placeholder_script_default_contents'] = null;        ob_start();        // line 106
         echo "            <script src=\"";
         echo $this->env->getExtension('CMS')->themeFilter(array(0 => "assets/js/jquery.min.js", 1 => "assets/js/bootstrap.min.js"));
         echo "\"></script>
         ";
-        $context['__placeholder_script_default_contents'] = ob_get_clean();        // line 102
+        $context['__placeholder_script_default_contents'] = ob_get_clean();        // line 105
         echo $this->env->getExtension('CMS')->displayBlock('script', $context['__placeholder_script_default_contents']);
-        unset($context['__placeholder_script_default_contents']);        // line 104
+        unset($context['__placeholder_script_default_contents']);        // line 107
         echo "    
     </body>
 </html>";
@@ -164,7 +167,7 @@ class __TwigTemplate_5b955bdcac9dcd6ce4f7f993c568bffe7d279d0bd70219f614414f345c8
 
     public function getDebugInfo()
     {
-        return array (  150 => 104,  148 => 102,  143 => 103,  142 => 102,  87 => 49,  85 => 48,  55 => 21,  46 => 14,  44 => 8,  40 => 12,  36 => 11,  32 => 10,  29 => 9,  28 => 8,  19 => 1,);
+        return array (  153 => 107,  151 => 105,  146 => 106,  145 => 105,  87 => 49,  85 => 48,  55 => 21,  46 => 14,  44 => 8,  40 => 12,  36 => 11,  32 => 10,  29 => 9,  28 => 8,  19 => 1,);
     }
 }
 /* <!DOCTYPE html>*/
@@ -185,12 +188,12 @@ class __TwigTemplate_5b955bdcac9dcd6ce4f7f993c568bffe7d279d0bd70219f614414f345c8
 /*         <header>*/
 /*            <div class="container">*/
 /*                 <div class="row">*/
-/*                     <div class="col-md-2">*/
+/*                     <div class="col-xs-1">*/
 /*                         <a href="#" id="logo">*/
 /*                             <img src="{{ 'assets/images/logo.png'|theme }}" alt="Tork">*/
 /*                         </a>*/
 /*                     </div>*/
-/*                     <div class="col-md-6 offset-md-4">*/
+/*                     <div class="col-xs-11">*/
 /*                         <nav class="pull-right">*/
 /*                             <form>*/
 /*                                 <div id="search">*/
@@ -204,14 +207,14 @@ class __TwigTemplate_5b955bdcac9dcd6ce4f7f993c568bffe7d279d0bd70219f614414f345c8
 /*                     </div>                    */
 /*                 </div>*/
 /*                 <dov class="row">*/
-/*                     <div class="col-md-8 offset-md-3">*/
+/*                     <div class="col-md-8 offset-md-3 col-xs-12">*/
 /*                         <div class="lettering">*/
 /*                             <h1>Building bulletproof fucking apps</h1>*/
 /*                             <p>Kickstarter umami Intelligentsia kogi. Try-hard flannel literally, chambray blog crucifix put a bird on it four dollar toast cardigan</p>*/
 /*                         </div>                        */
 /*                     </div>*/
 /*                 </dov>*/
-/*            </div>            */
+/*            </div>*/
 /*         </header>*/
 /*     */
 /*         {% page %}*/
@@ -219,22 +222,25 @@ class __TwigTemplate_5b955bdcac9dcd6ce4f7f993c568bffe7d279d0bd70219f614414f345c8
 /*         <footer>*/
 /*             <div class="container">*/
 /*                 <div class="row" id="contact">*/
-/*                     <div class="col-md-6">*/
+/*                     <div class="col-md-6 col-xs-12">*/
 /*                         <h4>Get in touch</h4>*/
 /*                         <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    */
 /*                     </div>*/
-/*                     <div class="col-md-6">*/
+/*                     <div class="col-md-6 col-xs-12">*/
 /*                         <h4>Stay in touch</h4>*/
 /*                         <form>*/
-/*                             <div class="form-group">*/
+/*                             <div class="input-group">                                */
 /*                                 <input type="text" class="form-control" placeholder="john@mail.com">*/
-/*                                 <p class="small">We don’t send spam. Actually, who are we kiding, we’ll spam the shit out of you’r inbox</p>*/
+/*                                 <span class="input-group-btn">*/
+/*                                     <button class="btn btn-primary" type="submit">Register</button>*/
+/*                                 </span>*/
 /*                             </div>*/
+/*                             <p class="small">We don’t send spam. Actually, who are we kiding, we’ll spam the shit out of you’r inbox</p>*/
 /*                         </form>*/
 /*                     </div>*/
 /*                 </div>*/
 /*                 <div class="row" id="sitemap">*/
-/*                     <div class="col-md-2">*/
+/*                     <div class="col-md-2 col-xs-4">*/
 /*                         <h5>Resources</h5>*/
 /*                         <ul class="list-unstyled">                            */
 /*                             <li><a href="#">Tour</a></li>*/
@@ -244,7 +250,7 @@ class __TwigTemplate_5b955bdcac9dcd6ce4f7f993c568bffe7d279d0bd70219f614414f345c8
 /*                             <li><a href="#">Education</a></li>                            */
 /*                         </ul>*/
 /*                     </div>*/
-/*                     <div class="col-md-2">*/
+/*                     <div class="col-md-2 col-xs-4">*/
 /*                         <h5>Features</h5>*/
 /*                         <ul class="list-unstyled">                            */
 /*                             <li><a href="#">Tour</a></li>*/
@@ -254,7 +260,7 @@ class __TwigTemplate_5b955bdcac9dcd6ce4f7f993c568bffe7d279d0bd70219f614414f345c8
 /*                             <li><a href="#">Education</a></li>                            */
 /*                         </ul>*/
 /*                     </div>*/
-/*                     <div class="col-md-2">*/
+/*                     <div class="col-md-2 col-xs-4">*/
 /*                         <h5>How To’s</h5>*/
 /*                         <ul class="list-unstyled">                            */
 /*                             <li><a href="#">Tour</a></li>*/

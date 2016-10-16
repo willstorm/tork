@@ -3,11 +3,11 @@ h1, h2, h3, h4, h5, h6, p {
     color:#ffffff;
 }
 
-.btn {
+a.btn {
     border-radius: 20px;
     padding-left: 40px;
     padding-right: 40px;
-    font-size: 14px;    
+    font-size: 14px;
 }
 
 .btn-primary {
@@ -20,8 +20,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 header {
-    background-image: url('../images/header.jpg');
-    height: 891px;
+    background: url('../images/header.jpg') no-repeat center center;
+    height: 830px;
 }
 
 header #logo {
@@ -155,6 +155,36 @@ footer #sitemap ul {
     margin-top: 20px;
 }
 
+footer form {
+    margin-top: 35px;
+}
+
 footer form p {
     margin-top: 10px;
+}
+
+@media (max-width: 544px) {
+    section .row > div:not(:first-child) {
+        margin-top: 35px;
+    }
+    
+    section, footer, #design-header {
+        padding: 50px 0;
+    }
+    
+    header .lettering {
+        margin-top: 150px;
+    }
+    
+    header .lettering h1 {
+        font-size: 55px;
+    }
+    
+    #design-features, #features-header, #features-detail, #contact h4 {
+        text-align: center;
+    }
+    
+    #contact div:nth-child(2) {
+        margin-top: 35px;
+    }
 }
